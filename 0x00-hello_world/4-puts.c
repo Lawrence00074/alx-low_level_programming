@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
  * main - A program that prints a line with puts function, without allowed to use anothe fumction
- * Return: Always 0
+ * Return: Always 0 (success)
  */
-int main(viod)
+int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle
 ");
