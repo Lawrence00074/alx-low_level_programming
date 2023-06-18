@@ -18,7 +18,7 @@ if
 putchar('0' + b);
 putchar('0' + a);
 if
-(a + b != 17))
+(a + b != 17)
 {
 putchar(',');
 putchar(' ');
