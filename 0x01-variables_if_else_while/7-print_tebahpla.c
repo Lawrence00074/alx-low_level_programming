@@ -10,7 +10,7 @@ t = 'z';
 while
 (t >= 'a') {
 putchar(t);
-c--;
+t--;
 }
 putchar('\n');
 return (0);
