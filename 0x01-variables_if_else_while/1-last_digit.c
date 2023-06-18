@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Entry point, program will assign a random number
+ * main - Entry point
  * Return: 0 (Success)
  */
 int main(void)
