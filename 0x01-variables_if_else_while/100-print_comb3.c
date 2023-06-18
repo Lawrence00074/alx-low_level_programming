@@ -5,30 +5,29 @@
  */
 int main(void)
 {
-int a = '0';
-int b = '1';
-while (a <= '9')
+int a;
+int b = 0;
+while (b < 10)
 {
-while (b <= '9')
+a = 0;
+while (a < 10)
 {
-if (!(a > b) || a == b)
+if
+(b != a && b < a)
 {
-putchar(a);
-putchar(b);
-if (a == '8' && b == '9')
-{
-putchar('\n');
-}
-else
+putchar('0' + b);
+putchar('0' + a);
+if
+(a + b != 17))
 {
 putchar(',');
 putchar(' ');
 }
 }
-b++;
-}
-b = '0';
 a++;
 }
+b++;
+}
+putchar('\n');
 return (0);
 }
