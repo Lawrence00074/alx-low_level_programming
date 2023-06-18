@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Entry point, program that prints the alphabet in lowercase
+ * main - Entry point
  * Return: 0 (Success)
  */
 int main(void)
@@ -14,4 +14,4 @@ t++;
 }
 putchar('\n');
 return (0);
-
+}
