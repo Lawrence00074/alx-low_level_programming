@@ -14,7 +14,7 @@ t = p * t;
 if (t > 9)
 {
 r = t % 10;
-oo = (t - r) / 10;
+o = (t - r) / 10;
 _putchar(44);
 _putchar(32);
 _putchar(o + '0');
