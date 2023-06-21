@@ -10,9 +10,9 @@ for (t = 0; t <= 2; t++)
 {
 for (o = 0; o <= 9; o++)
 {
-if ((t <= 1 && o <= 9) || (t <= 2 && <= 3))
+if ((t <= 1 && o <= 9) || (t <= 2 && o <= 3))
 {
-for (b = p; b <= 5; b++)
+for (b = 0; b <= 5; b++)
 {
 for (e = 0; e <= 9; e++)
 {
@@ -20,11 +20,12 @@ _putchar(t + '0');
 _putchar(o + '0');
 _putchar(58);
 _putchar(b + '0');
-_putchar(d + '0');
+_putchar(e + '0');
 _putchar('\n');
 }
 }
 }
 }
-}}
+}
+}
 
