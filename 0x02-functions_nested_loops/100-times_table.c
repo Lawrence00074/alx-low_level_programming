@@ -30,7 +30,7 @@ else if (pro <= 99 && pro >= 10)
 {
 _putchar((pro / 10) + '0');
 }
-_putchar((pro / 10) + '0');
+_putchar((pro % 10) + '0');
 }
 _putchar('\n');
 }
