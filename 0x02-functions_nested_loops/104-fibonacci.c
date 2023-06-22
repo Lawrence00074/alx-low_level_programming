@@ -12,7 +12,7 @@ unsigned long h1, h2;
 for (count = 0; count < 92; count++)
 {
 sum = f1 + f2;
-printf("%lu, ", sum);
+_printf("%lu, ", sum);
 f1 = f2;
 f2 = sum;
 }
@@ -29,14 +29,14 @@ if (f1_h2 + f2_h2 > 9999999999)
 h1 += 1;
 h2 %= 10000000000;
 }
-printf("%lu%lu", h1, h2);
+_printf("%lu%lu", h1, h2);
 if (count != 98)
-printf(", ");
+_printf(", ")i;
 f1_h1 = f2_h1;
 f1_h2 = f2_h2;
 f2_h1 = h1;
 f2_h2 = h2;
 }
-printf("\n");
+_printf("\n");
 return (0);
 }
