@@ -12,7 +12,7 @@ unsigned long h1, h2;
 for (count = 0; count < 92; count++)
 {
 sum = f1 + f2;
-_printf("%lu, ", sum);
+printf("%lu, ", sum);
 f1 = f2;
 f2 = sum;
 }
