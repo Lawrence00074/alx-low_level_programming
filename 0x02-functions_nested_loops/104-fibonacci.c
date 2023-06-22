@@ -6,7 +6,7 @@
 int main(void)
 {
 int count;
-unsigned long f1 = 0, f2 = 0, sum;
+unsigned long f1 = 0, f2 = 1, sum;
 unsigned long f1_h1, f1_h2, f2_h1, f2_h2;
 unsigned long h1, h2;
 for (count = 0; count < 92; count++)
