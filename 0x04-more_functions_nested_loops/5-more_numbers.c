@@ -12,9 +12,9 @@ for (o = 0; o <= 14; o++)
 {
 if (o < 9)
 {
-_putchar((y / 10) + '0');
+_putchar((o / 10) + '0');
 }
-_putchar((y % 10) + '0');
+_putchar((o % 10) + '0');
 }
 _putchar('\n')
 }
