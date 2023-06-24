@@ -2,20 +2,20 @@
 #include "main.h"
 /**
  * main - Print the largest prime factor of a number
- * Return: 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-long t, maxs;
+long t, maxf;
 long number = 612852475143;
 double square = sqrt(number);
 for (t = 1; t <= square; t++)
 {
 if (number % t == 0)
 {
-maxs = number / t;
+maxf = number / t;
 }
 }
-printf("%ld\n", maxs);
+printf("%ld\n", maxf);
 return (0);
 }
