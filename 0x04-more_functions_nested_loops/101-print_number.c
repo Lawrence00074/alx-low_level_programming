@@ -12,7 +12,7 @@ if (n < 0)
 {
 n *= -1;
 p = n;
-_putchar(' ');
+_putchar('-');
 }
 p /= 10;
 if (p != 0)
