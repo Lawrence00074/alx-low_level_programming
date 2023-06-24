@@ -11,7 +11,7 @@ for (t = 1; t <= 100; t++)
 {
 if ((t % 3 == 0) && (t % 5 == 0))
 {
-printf("FizzBuss");
+printf("FizzBuzz");
 }
 else if (t % 3 == 0)
 {
