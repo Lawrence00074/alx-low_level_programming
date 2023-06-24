@@ -19,7 +19,7 @@ for (o = size - t; o > 1; o--)
 {
 _putchar(32);
 }
-for (b = 0; b <= b; b++)
+for (b = 0; b <= t; b++)
 {
 _putchar(35);
 }
