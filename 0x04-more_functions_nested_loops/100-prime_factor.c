@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - Print tje largest prime factor of a number
+ * main - Print the largest prime factor of a number
  * Return: 0 (Success)
  */
 int main(void)
