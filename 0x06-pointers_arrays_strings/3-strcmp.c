@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * _strcmp - Compare pointers of two strings
+ * _strcmp - Compares pointers of two strings
  * @s1: A pointer to the first string to be compared
  * @s2: A pointer to the second string to be compared
- * Return: if str1 < str2, the negative difference of unmatched character
- * if str1 == str2, 0.
- * if str1 > str2, the positive difference of unmatched character
+ * Return: If str1 < str2, the negative difference of unmatched character
+ * If str1 == str2, 0.
+ * If str1 > str2, the positive difference of unmatched character
  */
 int _strcmp(char *s1, char *s2)
 {
