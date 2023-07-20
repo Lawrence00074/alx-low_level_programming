@@ -16,3 +16,4 @@ for (t = 0; t < size, t++)
 {
 action(array[t]);
 }
+}
