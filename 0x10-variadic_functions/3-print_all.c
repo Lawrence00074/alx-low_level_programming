@@ -47,7 +47,7 @@ printf("%f", va_arg(f, double));
  */
 void print_all(const char * const format, ...)
 {
-unsigned int b, e;
+unsigned int i, e;
 print_t p[] = {
 {"c", print_c},
 {"s", print_s},
@@ -58,22 +58,22 @@ print_t p[] = {
 va_list valist;
 char *separator = "";
 va_start(valist, format);
-b = 0;
-while (format && format[b])
+i = 0;
+while (format && format[i])
 {
 e = 0;
 while (p[e].t != NULL)
 {
-if (*(p[e].t) == format[b])
+if (*(p[e].t) == format[i])
 {
 printf("%s", separator);
-p[b].f(valist);
+p[e].f(valist);
 separator = ", ";
 break;
 }
 e++;
 }
-b++;
+i++;
 }
 va_end(valist);
 printf("\n");
