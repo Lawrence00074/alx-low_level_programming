@@ -8,17 +8,17 @@
 int main(int argc, char *argv[])
 {
 unsigned long mul;
-int t, o;
+int i, j;
 if (argc != 3)
 {
 printf("Error\n");
 exit(98);
 }
-for (t = 1; t < argc; t++)
+for (i = 1; i < argc; i++)
 {
-for (o = 0; argv[t][o] != '\0'; o++)
+for (j = 0; argv[i][j] != '\0'; j++)
 {
-if (argv[t][o] > 57 || argv[t][o] < 48)
+if (argv[i][j] > 57 || argv[i][j] < 48)
 {
 printf("Error\n");
 exit(98);
