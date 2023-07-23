@@ -16,7 +16,7 @@ exit(98);
 }
 for (t = 1; t < argc; t++)
 {
-for (o = 0; argv[o][o] != '\0'; o++)
+for (o = 0; argv[t][o] != '\0'; o++)
 {
 if (argv[t][o] > 57 || argv[t][o] < 48)
 {
