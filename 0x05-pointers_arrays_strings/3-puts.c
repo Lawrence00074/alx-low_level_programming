@@ -1,14 +1,13 @@
 #include "main.h"
 /**
- * _puts - To print a string
- * @str: The string to print
- * Return: Void
+ * _puts - prints abstring
+ * @str: string to be printed
  */
-void _puts(char *str)
+void  _puts(char *str)
 {
-for (; *str != '\0'; str++)
+while (*str != '\0')
 {
-_putchar(*str);
+_putchar(*str++);
 }
 _putchar('\n');
 }
