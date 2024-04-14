@@ -1,1 +1,1 @@
-readme on 0x18-dynamic_libraries
+This directory contains C Dynamic libraries
